@@ -10,7 +10,7 @@ Kumbukum is a hosted MCP server that gives any MCP-compatible AI tool access to 
 - **Semantic search** — AI retrieves the right memory using natural language
 - **Cross-tool** — one memory store, accessible from Claude, Cursor, ChatGPT, and more
 - **Tags & organisation** — tag memories by project, topic, or type
-- **Two data centers** — US (`mcp.kumbukum.com`) and EU (`mcp-eu.kumbukum.com`)
+- **Two data centers** — US (`mcp.kumbukum.com`) and EU (`mcp.kumbukum.eu`)
 
 ## Quick Start
 
@@ -36,7 +36,7 @@ Kumbukum is a hosted MCP server that gives any MCP-compatible AI tool access to 
 {
   "mcpServers": {
     "kumbukum": {
-      "url": "https://mcp-eu.kumbukum.com/mcp",
+      "url": "https://mcp.kumbukum.eu/mcp",
       "headers": {
         "Authorization": "Bearer YOUR_API_KEY"
       }
@@ -67,7 +67,7 @@ All requests require a Bearer token in the `Authorization` header. Get your API 
 | Region | URL |
 |---|---|
 | US | `https://mcp.kumbukum.com/mcp` |
-| EU | `https://mcp-eu.kumbukum.com/mcp` |
+| EU | `https://mcp.kumbukum.eu/mcp` |
 
 ## License
 
